@@ -1,0 +1,45 @@
+import java.util.Scanner;
+
+public class MenuCliente {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+
+		String nome, email, telefone;
+		int saldo,agencia,conta;
+		
+		
+		System.out.println("1 - Cadastrar Cliente");
+		System.out.println("2 - Listar Clientes");
+		System.out.println("3 - Gravar em Arquivo Texto");
+		System.out.println("4 - Consultar Arquivo Texto");
+		System.out.println("5 - Sair");
+		
+		Scanner teclado = new Scanner(System.in);
+		
+		int opcao;
+		
+		System.out.println("Entre com o opção desejada");
+		opcao=teclado.nextInt();
+		
+		switch(opcao) {
+		case 1:
+			System.out.println("Entre com a Agencia");				
+			System.out.println("Entre com a Conta");
+			System.out.println("Digite seu o nome completo");
+			System.out.println("Digite o seu email");
+			System.out.println("Digite o seu telefone");
+			break;
+		case 2:
+			System.out.println("Entre com a Agencia");
+			
+		
+		
+		
+		}
+		
+		
+		
+	}
+
+}
